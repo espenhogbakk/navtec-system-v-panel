@@ -7,6 +7,7 @@ Vector graphics for the panel front for the Navtec System V. It can be printed b
 The panel is 215x215mm, so make sure if you are using this that you are printing it to that exact size.
 
 ![SVG](https://github.com/espenhogbakk/navtec-system-v-panel/blob/master/navtec-panel.svg)
+![PATHS](https://github.com/espenhogbakk/navtec-system-v-panel/blob/master/navtec-panel-paths.svg)
 
 
 ![Original](https://github.com/espenhogbakk/navtec-system-v-panel/raw/master/original.jpg)
