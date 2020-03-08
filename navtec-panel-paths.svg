@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="no"?>
+<svg  viewBox="0 0 2150 2150" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    Main panel is a rounded rect:
+    Thickness: 3mm
+    Width: 215mm
+    Height: 215mm
+    Corner radius: 6mm
+  -->
+  <rect y="0" x="0" width="2150" height="2150" rx="60" fill="none" stroke="black" />
+
+  <!-- Gauge cutout -->
+  <circle cx="675" cy="530" r="102" fill="none" stroke="black" />
+    <!-- Release valve cutout -->
+    <circle cx="1470" cy="530" r="72" fill="none" stroke="black" />
+
+    <!-- Valve assembly philips screw cutouts (bevel not accounted for, just the main cutout) -->
+    <circle cx="1075" cy="435" r="39" fill="none" stroke="black" />
+    <circle cx="590" cy="690" r="39" fill="none" stroke="black" />
+    <circle cx="1560" cy="690" r="39" fill="none" stroke="black" />
+
+    <!-- Selector handle/valve cutout -->
+    <circle cx="675" cy="1625" r="147" fill="none" stroke="black" />
+    <!-- Position locator hole or selector valve -->
+    <circle cx="800" cy="1500" r="15" fill="none" stroke="black" />
+
+    <!-- Pump handle cutout -->
+    <circle cx="1470" cy="1626" r="166" fill="none" stroke="black" />
+    <!-- Pump handle bolt cutouts -->
+    <circle cx="1470" cy="1195" r="42" fill="none" stroke="black" />
+    <circle cx="1750" cy="1795" r="42" fill="none" stroke="black" />
+    <circle cx="1190" cy="1795" r="42" fill="none" stroke="black" />
+
+    <!-- Cutouts for bolts around the perimiter, the bottom 4 are larger -->
+    <circle cx="90" cy="90" r="34" fill="none" stroke="black" />
+    <circle cx="745" cy="90" r="34" fill="none" stroke="black" />
+    <circle cx="1400" cy="90" r="34" fill="none" stroke="black" />
+    <circle cx="2055" cy="90" r="34" fill="none" stroke="black" />
+    <circle cx="2055" cy="750" r="34" fill="none" stroke="black" />
+    <circle cx="2055" cy="1400" r="34" fill="none" stroke="black" />
+    <circle cx="2055" cy="2060" r="42" fill="none" stroke="black" />
+    <circle cx="1400" cy="2060" r="42" fill="none" stroke="black" />
+    <circle cx="745" cy="2060" r="42" fill="none" stroke="black" />
+    <circle cx="90" cy="2060" r="42" fill="none" stroke="black" />
+    <circle cx="90" cy="1400" r="34" fill="none" stroke="black" />
+    <circle cx="90" cy="750" r="34" fill="none" stroke="black" />
+
+</svg>
