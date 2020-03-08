@@ -1,5 +1,13 @@
 <?xml version="1.0" standalone="no"?>
-<svg  viewBox="0 0 2150 2150" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 2150 2150" height="215" width="215" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    TODO - the radi' on all the circles, and the shape it self is noe the same as the
+    as the cutouts in the navtec-panel.svg file. Do we need to subtract the point
+    size to make this be correct when cut?
+
+    That is, how does one tell the laser cutter, where to remove material,
+    inside, or outside of the line?
+  -->
   <!--
     Main panel is a rounded rect:
     Thickness: 3mm
@@ -7,42 +15,42 @@
     Height: 215mm
     Corner radius: 6mm
   -->
-  <rect y="0" x="0" width="2150" height="2150" rx="60" fill="none" stroke="black" />
+  <rect y="0" x="0" width="2150" height="2150" rx="60" fill="none" stroke="blue" />
 
   <!-- Gauge cutout -->
-  <circle cx="675" cy="530" r="102" fill="none" stroke="black" />
+  <circle cx="675" cy="530" r="103" fill="none" stroke="blue" />
     <!-- Release valve cutout -->
-    <circle cx="1470" cy="530" r="72" fill="none" stroke="black" />
+    <circle cx="1470" cy="530" r="72" fill="none" stroke="blue" />
 
     <!-- Valve assembly philips screw cutouts (bevel not accounted for, just the main cutout) -->
-    <circle cx="1075" cy="435" r="39" fill="none" stroke="black" />
-    <circle cx="590" cy="690" r="39" fill="none" stroke="black" />
-    <circle cx="1560" cy="690" r="39" fill="none" stroke="black" />
+    <circle cx="1075" cy="435" r="40" fill="none" stroke="blue" />
+    <circle cx="590" cy="690" r="40" fill="none" stroke="blue" />
+    <circle cx="1560" cy="690" r="40" fill="none" stroke="blue" />
 
     <!-- Selector handle/valve cutout -->
-    <circle cx="675" cy="1625" r="147" fill="none" stroke="black" />
+    <circle cx="675" cy="1625" r="148" fill="none" stroke="blue" />
     <!-- Position locator hole or selector valve -->
-    <circle cx="800" cy="1500" r="15" fill="none" stroke="black" />
+    <circle cx="800" cy="1500" r="16" fill="none" stroke="blue" />
 
     <!-- Pump handle cutout -->
-    <circle cx="1470" cy="1626" r="166" fill="none" stroke="black" />
+    <circle cx="1470" cy="1626" r="167" fill="none" stroke="blue" />
     <!-- Pump handle bolt cutouts -->
-    <circle cx="1470" cy="1195" r="42" fill="none" stroke="black" />
-    <circle cx="1750" cy="1795" r="42" fill="none" stroke="black" />
-    <circle cx="1190" cy="1795" r="42" fill="none" stroke="black" />
+    <circle cx="1470" cy="1195" r="43" fill="none" stroke="blue" />
+    <circle cx="1750" cy="1795" r="43" fill="none" stroke="blue" />
+    <circle cx="1190" cy="1795" r="43" fill="none" stroke="blue" />
 
     <!-- Cutouts for bolts around the perimiter, the bottom 4 are larger -->
-    <circle cx="90" cy="90" r="34" fill="none" stroke="black" />
-    <circle cx="745" cy="90" r="34" fill="none" stroke="black" />
-    <circle cx="1400" cy="90" r="34" fill="none" stroke="black" />
-    <circle cx="2055" cy="90" r="34" fill="none" stroke="black" />
-    <circle cx="2055" cy="750" r="34" fill="none" stroke="black" />
-    <circle cx="2055" cy="1400" r="34" fill="none" stroke="black" />
-    <circle cx="2055" cy="2060" r="42" fill="none" stroke="black" />
-    <circle cx="1400" cy="2060" r="42" fill="none" stroke="black" />
-    <circle cx="745" cy="2060" r="42" fill="none" stroke="black" />
-    <circle cx="90" cy="2060" r="42" fill="none" stroke="black" />
-    <circle cx="90" cy="1400" r="34" fill="none" stroke="black" />
-    <circle cx="90" cy="750" r="34" fill="none" stroke="black" />
+    <circle cx="90" cy="90" r="35" fill="none" stroke="blue" />
+    <circle cx="745" cy="90" r="35" fill="none" stroke="blue" />
+    <circle cx="1400" cy="90" r="35" fill="none" stroke="blue" />
+    <circle cx="2055" cy="90" r="35" fill="none" stroke="blue" />
+    <circle cx="2055" cy="750" r="35" fill="none" stroke="blue" />
+    <circle cx="2055" cy="1400" r="35" fill="none" stroke="blue" />
+    <circle cx="2055" cy="2060" r="43" fill="none" stroke="blue" />
+    <circle cx="1400" cy="2060" r="43" fill="none" stroke="blue" />
+    <circle cx="745" cy="2060" r="43" fill="none" stroke="blue" />
+    <circle cx="90" cy="2060" r="43" fill="none" stroke="blue" />
+    <circle cx="90" cy="1400" r="35" fill="none" stroke="blue" />
+    <circle cx="90" cy="750" r="35" fill="none" stroke="blue" />
 
 </svg>
